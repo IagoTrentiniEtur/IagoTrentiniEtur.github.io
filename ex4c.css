@@ -5,3 +5,31 @@
   background-color:red;
   color:white;
 }
+.top-right {
+  position:fixed;
+  top:100%;
+  right:100%;
+  background-color:blue;
+  color:white;
+}
+.bottom-left {
+  position:fixed;
+  bottom:100%;
+  left:100%;
+  background-color:yellow;
+  color:black;
+}
+.bottom-right {
+  position:fixed;
+  bottom:100%;
+  right:100%;
+  background-color:green;
+  color:white;
+}
+.center {
+  position:fixed;
+  top:50%;
+  left:50%;
+  background-color:purple;
+  color:white;
+}
