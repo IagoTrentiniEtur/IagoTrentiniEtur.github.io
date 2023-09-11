@@ -6,7 +6,7 @@
 		<title>Matriz PHP</title>
 	</head>
 	<body>
-                <php
+                <?php
                         $linhas = 10;
                         $colunas = 14;
                         for ($line=0; $line <= $linhas; $line++) {
