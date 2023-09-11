@@ -14,15 +14,15 @@
                                         $matriz[$l][$c] = rand(1, 1000);
                                 }
                         }
-                        echo '<table>';
+                        echo "<table>";
                         for ($l=0; $l <= $linhas; $l++) {
-                                echo '<tr>'
+                                echo "<tr>";
                                 for ($c=0; $c <= $colunas; $c++) {
-                                        echo '<td>{$matriz[$l][$c]}</td>'
+                                        echo "<td>".{$matriz[$l][$c]}."</td>";
                                 }
-                                echo '</tr>'
+                                echo "</tr>";
                         }
-                        echo '</table>';
+                        echo "</table>";
                 ?>
         </body>
 </html>
