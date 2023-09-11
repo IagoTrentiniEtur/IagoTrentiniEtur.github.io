@@ -3,22 +3,22 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Title Here</title>
+		<title>Matriz PHP</title>
 	</head>
 	<body>
                 <php
                         $linhas = 10;
                         $colunas = 14;
-                        for ($l=0; $l <= $linhas; $l++) {
-                                for ($c=0; $c <= $colunas; $c++) {
-                                        $matriz[$l][$c] = rand(1, 1000);
+                        for ($line=0; $line <= $linhas; $line++) {
+                                for ($column=0; $column <= $colunas; $column++) {
+                                        $matriz[$line][$column] = rand(1, 1000);
                                 }
                         }
                         echo "<table>";
-                        for ($l=0; $l <= $linhas; $l++) {
+                        for ($line=0; $line <= $linhas; $line++) {
                                 echo "<tr>";
-                                for ($c=0; $c <= $colunas; $c++) {
-                                        echo "<td>".$matriz[$l][$c]."</td>";
+                                for ($column=0; $column <= $colunas; $column++) {
+                                        echo "<td>".$matriz[$line][$column]."</td>";
                                 }
                                 echo "</tr>";
                         }
