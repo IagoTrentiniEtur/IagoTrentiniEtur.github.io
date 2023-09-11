@@ -18,7 +18,7 @@
                         for ($line=0; $line <= $linhas; $line++) {
                                 echo "<tr>";
                                 for ($column=0; $column <= $colunas; $column++) {
-                                        echo "<td>".$matriz[$line][$column]."</td>";
+                                        echo "<td>$matriz[$line][$column]</td>";
                                 }
                                 echo "</tr>";
                         }
