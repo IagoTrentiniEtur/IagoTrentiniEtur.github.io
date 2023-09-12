@@ -7,7 +7,12 @@
 	</head>
 	<body>
 		<?php
-                        
+                        $pri = rand(1,50);
+			$seg = rand(1,50);
+			$ter = rand(1,50);
+			if ($pri > 10) {
+				echo "<p style="color:blue;">".$pri + $seg + $ter."</p>";
+			}
                 ?>
 	</body>
 </html>
