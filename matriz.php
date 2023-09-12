@@ -11,14 +11,14 @@
                         $colunas = 14;
                         for ($line=0; $line <= $linhas; $line++) {
                                 for ($column=0; $column <= $colunas; $column++) {
-					$matriz[$line][$column] = rand(1,1000);
+					$matriz[$line][$column] = rand(1, 1000);
 				}      
                         }
                         echo "<table>";
                         for ($line=0; $line <= $linhas; $line++) {
                                 echo "<tr>";
                                 for ($column=0; $column <= $colunas; $column++) {
-                                        echo "<td>$matriz[$line][$column]</td>";
+                                        echo "<td>".$matriz[$line][$column]."</td>";
                                 }
                                 echo "</tr>";
                         }
