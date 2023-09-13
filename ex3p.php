@@ -8,7 +8,8 @@
 	<body>
 		<?php
                         $lado = rand(1,10);
-                        
+                        $area = $lado * $lado;
+			echo "A área do quadrado de lado ".$lado." metros é ".$area." metros quadrados."
                 ?>
 	</body>
 </html>
