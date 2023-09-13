@@ -9,6 +9,8 @@
 		<?php
                         $base = rand(1,10);
 			$altura = rand(1,10);
+			$area = ($base * $altura) / 2;
+			echo "A área do triângulo retângulo é ".$area;
                 ?>
 	</body>
 </html>
