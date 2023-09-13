@@ -7,7 +7,8 @@
 	</head>
 	<body>
 		<?php
-                        
+                        $base = rand(1,10);
+			$altura = rand(1,10);
                 ?>
 	</body>
 </html>
