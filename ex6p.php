@@ -28,7 +28,11 @@
 			$precototalbatata = $precobatata * $quilobatata;
 			$conta = $precototalmaca + $precototalmelancia + $precototallaranja + $precototalrepolho + $precototalcenoura + $precototalbatata;
 			if ($conta > $poupanca) {
-				echo 
+				echo "<p style='color:vermelho;'>Conta: ".$conta." |Poupança: ".$poupanca." |Status: Falta.</p>";
+			} elseif ($conta < $poupanca) {
+				echo "<p style='color:blue;'>Conta: ".$conta." |Poupança: ".$poupanca." |Status: Sobrou.</p>";
+			} elseif ($conta == $poupanca) {
+				echo "<p style='color:green;'>Conta: ".$conta." |Poupança: ".$poupanca." |Status: Esgotado.</p>";
 			}
                 ?>
 	</body>
