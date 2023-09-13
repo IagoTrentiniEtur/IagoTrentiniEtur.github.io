@@ -11,11 +11,11 @@
 			$seg = rand(1,50);
 			$ter = rand(1,50);
 			if ($pri > 10) {
-				echo "<p style="color:blue;">".$pri + $seg + $ter."</p>";
+				echo "<p style='color:blue;'>".$pri + $seg + $ter."</p>";
 			} elseif ($seg < $ter) {
-				echo "<p style="color:green;">".$pri + $seg + $ter."</p>";
+				echo "<p style='color:green;'>".$pri + $seg + $ter."</p>";
 			} elseif ($ter < $pri && $ter < $seg) {
-				echo "<p style="color:vermelho;">".$pri + $seg + $ter."</p>";
+				echo "<p style='color:vermelho;'>".$pri + $seg + $ter."</p>";
 			}
                 ?>
 	</body>
