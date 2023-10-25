@@ -18,6 +18,8 @@ $tempo_sessao = time() - $_SESSION['inicio_sessao'];
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Informações da Sessão</title>
 </head>
 <body>
